@@ -1,0 +1,178 @@
+.class public final Lcom/paypal/pyplcheckout/events/Error;
+.super Lcom/paypal/pyplcheckout/events/ResultData;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<F:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/paypal/pyplcheckout/events/ResultData;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final data:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TF;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TF;)V"
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, Lcom/paypal/pyplcheckout/events/ResultData;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    iput-object p1, p0, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public static synthetic copy$default(Lcom/paypal/pyplcheckout/events/Error;Ljava/lang/Object;ILjava/lang/Object;)Lcom/paypal/pyplcheckout/events/Error;
+    .locals 0
+
+    and-int/lit8 p2, p2, 0x1
+
+    if-eqz p2, :cond_0
+
+    iget-object p1, p0, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    :cond_0
+    invoke-virtual {p0, p1}, Lcom/paypal/pyplcheckout/events/Error;->copy(Ljava/lang/Object;)Lcom/paypal/pyplcheckout/events/Error;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final component1()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TF;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    return-object v0
+.end method
+
+.method public final copy(Ljava/lang/Object;)Lcom/paypal/pyplcheckout/events/Error;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TF;)",
+            "Lcom/paypal/pyplcheckout/events/Error<",
+            "TF;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/paypal/pyplcheckout/events/Error;
+
+    invoke-direct {v0, p1}, Lcom/paypal/pyplcheckout/events/Error;-><init>(Ljava/lang/Object;)V
+
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/paypal/pyplcheckout/events/Error;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/paypal/pyplcheckout/events/Error;
+
+    iget-object v1, p0, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    iget-object p1, p1, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/o;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_2
+
+    return v2
+
+    :cond_2
+    return v0
+.end method
+
+.method public final getData()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TF;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    return-object v0
+.end method
+
+.method public hashCode()I
+    .locals 1
+
+    iget-object v0, p0, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    :goto_0
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    iget-object v0, p0, Lcom/paypal/pyplcheckout/events/Error;->data:Ljava/lang/Object;
+
+    const-string v1, "Error(data="
+
+    const-string v2, ")"
+
+    invoke-static {v1, v0, v2}, Lai/i;->m(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

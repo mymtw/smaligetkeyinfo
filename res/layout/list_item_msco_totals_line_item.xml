@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clg_space_8" android:paddingStart="@dimen/clg_space_16" android:paddingEnd="@dimen/clg_space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etsy.android.stylekit.views.CollageTextView android:gravity="start" android:id="@id/txt_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/clg_text_body_small" />
+    <com.etsy.android.stylekit.views.CollageTextView android:id="@id/txt_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/clg_space_16" style="@style/clg_text_body_small" />
+</LinearLayout>

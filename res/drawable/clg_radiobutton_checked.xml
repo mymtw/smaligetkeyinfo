@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/interactive_element_size" android:width="@dimen/interactive_element_size" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="unselected_ring" android:pathData="M 3, 50     a 47,47 0 1,1 94,0     a 47,47 0 1,1 -94,0" android:strokeColor="?clg_color_interaction_enabled_unselected" android:strokeWidth="6.0" />
+    <group android:name="radio_ring" android:pivotX="50.0" android:pivotY="50.0">
+        <path android:fillColor="?clg_color_interaction_enabled_selected" android:pathData="M 50 5 A 45 45 0 1 0 50 95 A 45 45 0 1 0 50 5 Z M 50 30 A 20 20 0 1 1 50 70 A 20 20 0 1 1 50 30 Z" />
+    </group>
+</vector>

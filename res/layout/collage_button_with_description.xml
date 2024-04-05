@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingTop="@dimen/clg_space_12" android:paddingBottom="@dimen/clg_space_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:layout_gravity="center_horizontal" android:id="@id/button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/clg_button_secondary" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@android:id/text1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clg_space_12" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/button" app:layout_goneMarginTop="0.0dip" style="@style/clg_text_body_small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

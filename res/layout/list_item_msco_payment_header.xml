@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MultiShopCartGroupItem.WithDivider"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?clg_color_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginBottom="@dimen/margin_large" />
+    <com.etsy.android.stylekit.views.CollageHeadingTextView android:textAppearance="@style/TextBlack" android:id="@id/txt_title" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payment_methods" style="@style/MultiShopCartGroupItemContentPadded" />
+</LinearLayout>

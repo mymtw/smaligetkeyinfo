@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="cart_inner_padding">@dimen/padding_medium</item>
+    <dimen name="list_horizontal_card_padding">52.0dip</dimen>
+    <dimen name="listing_pager_max_height">532.0dip</dimen>
+</resources>

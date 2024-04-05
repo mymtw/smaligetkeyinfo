@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?clg_color_bg_primary" />
+        </shape>
+    </item>
+    <item android:right="@dimen/divider_height">
+        <bitmap android:src="@drawable/empty_placeholder" android:tint="?clg_color_bg_secondary" android:tileMode="repeat" android:tintMode="multiply" />
+    </item>
+</layer-list>

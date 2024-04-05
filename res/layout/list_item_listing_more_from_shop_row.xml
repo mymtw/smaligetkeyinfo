@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/more_shop_listings_parent" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/first_listing" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/clg_space_4" app:layout_constraintEnd_toStartOf="@id/second_listing" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/list_item_listing_card_collage" />
+    <include android:id="@id/second_listing" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/first_listing" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" layout="@layout/list_item_listing_card_collage" />
+    <Space android:id="@id/bottom_space" android:layout_width="fill_parent" android:layout_height="@dimen/clg_space_4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/first_listing" />
+</androidx.constraintlayout.widget.ConstraintLayout>

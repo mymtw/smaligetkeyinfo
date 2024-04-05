@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?rippleOnSurface"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <inset android:inset="6.0dip">
+            <shape android:shape="oval">
+                <solid android:color="@color/clg_color_bubblegum" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset android:inset="6.0dip">
+            <shape android:shape="oval">
+                <solid android:color="@color/clg_color_white" />
+                <stroke android:width="1.0sp" android:color="@color/clg_color_stone" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.stylekit.views.CollageHeadingTextView android:textSize="@dimen/sk_text_body_smaller" android:textColor="?clg_color_text_secondary" android:gravity="center" android:id="@id/date" android:paddingTop="@dimen/clg_space_16" android:paddingBottom="@dimen/clg_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

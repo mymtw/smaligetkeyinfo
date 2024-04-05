@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="env_array">
+        <item>Live</item>
+        <item>Mock</item>
+        <item>StageT24</item>
+        <item>Stage133</item>
+        <item>Sandbox</item>
+    </string-array>
+    <string-array name="etsy_environments">
+        <item>@string/config_prefs_dev</item>
+        <item>@string/config_prefs_princess</item>
+        <item>@string/config_prefs_prod</item>
+    </string-array>
+    <string-array name="etsy_environments_values">
+        <item>@string/config_prefs_dev_value</item>
+        <item>@string/config_prefs_princess_value</item>
+        <item>@string/config_prefs_prod_value</item>
+    </string-array>
+    <string-array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <array name="local_grid_image_bg_colors">
+        <item>#fff5f5f5</item>
+        <item>#ffe7e7e7</item>
+        <item>#ffdadada</item>
+        <item>#ffd0d0d0</item>
+        <item>#ffc4c4c4</item>
+        <item>#ffeeeeee</item>
+        <item>#ffe2e1de</item>
+        <item>#ffd5d5d4</item>
+        <item>#ffcacac9</item>
+        <item>#ffbfbfbe</item>
+    </array>
+    <array name="null_" />
+    <integer-array name="progress_bar_prices">
+        <item>0</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+    </integer-array>
+    <string-array name="us_state_codes">
+        <item>AK</item>
+        <item>AL</item>
+        <item>AR</item>
+        <item>AZ</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DC</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>GU</item>
+        <item>HI</item>
+        <item>IA</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>MA</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MO</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>NE</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NV</item>
+        <item>NY</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>PR</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VA</item>
+        <item>VT</item>
+        <item>WA</item>
+        <item>WI</item>
+        <item>WV</item>
+        <item>WY</item>
+    </string-array>
+</resources>

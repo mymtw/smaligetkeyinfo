@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/empty_placeholder" android:tint="?clg_color_bg_secondary" android:tileMode="repeat" android:tintMode="multiply"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

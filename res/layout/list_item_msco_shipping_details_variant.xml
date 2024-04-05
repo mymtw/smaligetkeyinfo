@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="0.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/clg_space_36" style="@style/MultiShopCartGroupItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.etsy.android.stylekit.views.CollageTextView android:id="@id/txt_free_shipping" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBaseline_toBaselineOf="@id/txt_estimated_delivery" app:layout_constraintEnd_toEndOf="parent" style="@style/clg_text_body_small" />
+    <com.etsy.android.stylekit.views.CollageTextView android:id="@id/txt_estimated_delivery" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/clg_space_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/txt_free_shipping" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/clg_text_body_small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

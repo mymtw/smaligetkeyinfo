@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_face_margin_start">64.0dip</dimen>
+    <item type="dimen" name="convo_card_padding">@dimen/padding_large</item>
+    <dimen name="shop_share_caption_padding_vertical">16.0dip</dimen>
+</resources>

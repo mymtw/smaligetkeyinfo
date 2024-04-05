@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/interactive_element_size_small" android:width="@dimen/interactive_element_size_small" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="radio_ring" android:fillColor="?clg_color_interaction_disabled" android:pathData="M 50 5 A 45 45 0 1 0 50 95 A 45 45 0 1 0 50 5 Z M 50 30 A 20 20 0 1 1 50 70 A 20 20 0 1 1 50 30 Z" />
+</vector>

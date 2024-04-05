@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.stylekit.views.CollageHeadingLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:accessibilityHeadingView="@id/top_results_header_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_results_header_divider" android:background="?clg_color_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="@dimen/clg_space_16" android:importantForAccessibility="no" android:layout_marginStart="@dimen/clg_space_8" android:layout_marginEnd="@dimen/clg_space_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/top_results_header_label" android:paddingTop="@dimen/clg_space_16" android:paddingBottom="@dimen/clg_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/clg_space_8" android:paddingEnd="@dimen/clg_space_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_results_header_divider" style="@style/clg_text_title" />
+</com.etsy.android.stylekit.views.CollageHeadingLayout>

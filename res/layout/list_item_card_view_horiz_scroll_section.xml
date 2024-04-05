@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/horizontal_recycler_view_layout" android:layout_width="fill_parent" android:layout_height="100.0dip" style="@style/CardViewFullBleedElementStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/horizontal_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/horizontal_recycler_view" android:paddingBottom="@dimen/clg_space_4" android:scrollbars="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/clg_space_8" android:paddingEnd="@dimen/clg_space_8" />
+</FrameLayout>

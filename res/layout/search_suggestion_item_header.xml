@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.stylekit.views.CollageHeadingLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/recent_searches_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clg_space_16" android:layout_marginBottom="@dimen/clg_space_8" android:layout_marginStart="@dimen/clg_space_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/recent_searches_clear_btn" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/clg_text_title" />
+    <Button android:id="@id/recent_searches_clear_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/clear" app:icon="@drawable/clg_icon_core_close_v1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/clg_button_tertiary_transparent_icon" />
+</com.etsy.android.stylekit.views.CollageHeadingLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:id="@id/currency_device_msg" android:background="@color/clg_color_beeswax_tint" android:paddingTop="@dimen/fixed_medium_large" android:paddingBottom="@dimen/fixed_medium_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/fixed_large" android:paddingEnd="@dimen/fixed_large" style="@style/TextBlack.Large"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

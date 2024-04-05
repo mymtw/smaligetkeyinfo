@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/txtStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please resolve stepup challenge" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Button android:id="@id/btnOk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_8x" android:text="OK" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/txtStatus" />
+    <Button android:id="@id/btnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_8x" android:text="Cancel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/btnOk" />
+</androidx.constraintlayout.widget.ConstraintLayout>

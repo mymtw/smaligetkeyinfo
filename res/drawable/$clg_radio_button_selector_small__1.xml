@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/interactive_element_size_small" android:width="@dimen/interactive_element_size_small" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="unselected_ring" android:pathData="M 5.5, 49.5a 44.5,44.5 0 1,1 0,1z" android:strokeColor="?clg_color_interaction_enabled_unselected" android:strokeWidth="11.0" />
+</vector>

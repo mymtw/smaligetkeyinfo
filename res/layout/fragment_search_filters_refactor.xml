@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/filters_list" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toTopOf="@id/search_filters_show_results" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.etsy.android.stylekit.views.ProgressButton android:id="@id/search_filters_show_results" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clg_space_16" android:layout_marginBottom="@dimen/clg_space_20" android:layout_marginStart="@dimen/clg_space_16" android:layout_marginEnd="@dimen/clg_space_16" app:clg_text="@string/search_filters_show_results" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/filters_list" />
+    <FrameLayout android:id="@id/new_search_filters_screen_badge" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="155.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <TextView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="68.0dip" android:text="@string/new_search_filters_debug_build_badge" android:rotation="315.0" android:layout_marginEnd="-16.0dip" style="@style/clg_badge_notification_primary" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:ignore="TypographyDashes" xmlns:tools="https://schemas.android.com/tools">
+    <string name="ga_appName">Etsy Android App</string>
+    <string name="ga_logLevel">error</string>
+    <integer name="ga_dispatchPeriod">60</integer>
+</resources>

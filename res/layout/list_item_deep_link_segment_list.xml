@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/clg_space_12" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardViewFullBleedElementStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?clg_color_text_secondary" android:id="@id/deep_link_segment_list_title" android:paddingLeft="@dimen/clg_space_12" android:paddingTop="@dimen/clg_space_8" android:paddingBottom="@dimen/clg_space_8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sk_text_category_label" />
+    <LinearLayout android:orientation="vertical" android:id="@id/deep_link_segment_row_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,119 @@
+.class final Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkq/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/etsy/android/ui/user/review/CreateReviewActivity;->updateBackButton(Lcom/etsy/android/ui/user/review/a;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkq/l<",
+        "Landroid/view/View;",
+        "Lkotlin/m;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic $option:Lcom/etsy/android/ui/user/review/a;
+
+.field public final synthetic this$0:Lcom/etsy/android/ui/user/review/CreateReviewActivity;
+
+
+# direct methods
+.method public constructor <init>(Lcom/etsy/android/ui/user/review/a;Lcom/etsy/android/ui/user/review/CreateReviewActivity;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;->$option:Lcom/etsy/android/ui/user/review/a;
+
+    iput-object p2, p0, Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;->this$0:Lcom/etsy/android/ui/user/review/CreateReviewActivity;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Landroid/view/View;
+
+    invoke-virtual {p0, p1}, Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;->invoke(Landroid/view/View;)V
+
+    sget-object p1, Lkotlin/m;->a:Lkotlin/m;
+
+    return-object p1
+.end method
+
+.method public final invoke(Landroid/view/View;)V
+    .locals 2
+
+    .line 2
+    iget-object p1, p0, Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;->$option:Lcom/etsy/android/ui/user/review/a;
+
+    .line 3
+    iget-object p1, p1, Lcom/etsy/android/ui/user/review/a;->c:Lcom/etsy/android/ui/user/review/NavigationAction;
+
+    .line 4
+    iget-object v0, p0, Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;->this$0:Lcom/etsy/android/ui/user/review/CreateReviewActivity;
+
+    invoke-virtual {v0}, Lcom/etsy/android/ui/user/review/CreateReviewActivity;->getViewModel()Lcom/etsy/android/ui/user/review/CreateReviewViewModel;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lcom/etsy/android/ui/user/review/CreateReviewViewModel;->j(Lcom/etsy/android/ui/user/review/NavigationAction;)V
+
+    .line 5
+    iget-object p1, p0, Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;->this$0:Lcom/etsy/android/ui/user/review/CreateReviewActivity;
+
+    invoke-virtual {p1}, Lcom/etsy/android/uikit/nav/TrackingBaseActivity;->getAnalyticsContext()Lcom/etsy/android/lib/logger/p;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/etsy/android/ui/user/review/CreateReviewActivity$updateBackButton$1;->$option:Lcom/etsy/android/ui/user/review/a;
+
+    .line 6
+    iget-object v0, v0, Lcom/etsy/android/ui/user/review/a;->b:Lcom/etsy/android/lib/logger/ITrackedObject;
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    .line 7
+    invoke-static {v0}, Lkotlin/jvm/internal/s;->g0(Lcom/etsy/android/lib/logger/l;)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    move-object v0, v1
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 8
+    invoke-virtual {p1, v0, v1}, Lcom/etsy/android/lib/logger/p;->d(Ljava/lang/String;Ljava/util/Map;)V
+
+    return-void
+.end method

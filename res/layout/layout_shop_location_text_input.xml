@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.stylekit.views.CollageTextInput android:id="@id/text_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="actionDone" android:paddingStart="@dimen/clg_space_16" android:paddingEnd="@dimen/clg_space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

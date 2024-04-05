@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="?clg_color_text_secondary" android:id="@id/text_unit_price" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clg_space_4" android:includeFontPadding="false" style="@style/clg_text_body_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

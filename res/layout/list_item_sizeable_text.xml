@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/clg_space_16" android:paddingRight="@dimen/clg_space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardViewFullBleedElementStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/sizeable_text_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/sk_text_headline" android:gravity="center" android:id="@id/sizeable_text_headline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

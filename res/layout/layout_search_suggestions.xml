@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/search_suggestions_empty_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_history_empty_text" android:textAlignment="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.225" style="@style/clg_text_heading" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/search_suggestions_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="parent" />
+    <include android:visibility="gone" layout="@layout/partial_no_internet_listing" />
+    <include android:visibility="gone" layout="@layout/partial_loading" />
+    <com.etsy.android.stylekit.views.CollageEdge android:id="@id/header_edge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/categories_tear_header_height" app:clg_edgeType="edge02" app:clg_size="small" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conversation_uploading_image">
+        <item quantity="other">Caricamento immagini</item>
+        <item quantity="one">Caricamento immagine</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Avanti di %d secondi</item>
+        <item quantity="one">Avanti di %d secondo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Indietro di %d secondi</item>
+        <item quantity="one">Indietro di %d secondo</item>
+    </plurals>
+    <plurals name="follower_counts">
+        <item quantity="other">%s follower</item>
+        <item quantity="one">1 follower</item>
+    </plurals>
+    <plurals name="followers">
+        <item quantity="other">Follower</item>
+        <item quantity="one">Follower</item>
+    </plurals>
+    <plurals name="in_n_carts">
+        <item quantity="other">Nel carrello di %s persone</item>
+        <item quantity="one">Nel carrello di %s persona</item>
+    </plurals>
+    <plurals name="in_n_carts_variant">
+        <item quantity="other">in %s carrelli</item>
+        <item quantity="one">In %s carrello</item>
+    </plurals>
+    <plurals name="item_lowercase_quantity">
+        <item quantity="other">%s articoli</item>
+        <item quantity="one">%s articolo</item>
+    </plurals>
+    <plurals name="listing_sale_ends_soon_badge_hours">
+        <item quantity="other">"L'offerta termina tra %s ore"</item>
+        <item quantity="one">"L'offerta termina tra 1 ora"</item>
+    </plurals>
+    <plurals name="listing_sale_ends_soon_badge_minutes">
+        <item quantity="other">"L'offerta termina tra %s minuti"</item>
+        <item quantity="one">"L'offerta termina tra 1 minuto"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="n_items">
+        <item quantity="other">%d articoli</item>
+        <item quantity="one">%d articolo</item>
+    </plurals>
+    <plurals name="n_items_available">
+        <item quantity="other">%d disponibili</item>
+        <item quantity="one">%d disponibile</item>
+    </plurals>
+    <plurals name="native_buy_it_now_order_summary_expanded_total_label">
+        <item quantity="other">Totale (%s articoli)</item>
+        <item quantity="one">Totale (1 articolo)</item>
+    </plurals>
+    <plurals name="owner_of_shop">
+        <item quantity="other">Proprietari di %s</item>
+        <item quantity="one">Proprietario di %s</item>
+    </plurals>
+    <plurals name="review_counts">
+        <item quantity="other">(%d recensioni)</item>
+        <item quantity="one">(1 recensione)</item>
+    </plurals>
+    <plurals name="sale_ending_hours">
+        <item quantity="other">"L'offerta termina tra %s ore"</item>
+        <item quantity="one">"L'offerta termina tra 1 ora"</item>
+    </plurals>
+    <plurals name="sale_ending_mins">
+        <item quantity="other">"L'offerta termina tra %s minuti"</item>
+        <item quantity="one">"L'offerta termina tra 1 min."</item>
+    </plurals>
+    <plurals name="search_filters_show_results_with_count">
+        <item quantity="other">Mostra %s risultati</item>
+        <item quantity="one">Mostra 1 risultato</item>
+    </plurals>
+    <plurals name="search_shops_found">
+        <item quantity="other">\@string/shops_found</item>
+        <item quantity="one">\@string/shops_found_single</item>
+    </plurals>
+    <plurals name="shipping_delivery_notification_big_title">
+        <item quantity="other">%s ordini sono stati consegnati</item>
+        <item quantity="one">Il tuo ordine è stato consegnato</item>
+    </plurals>
+    <plurals name="shipping_processing_days">
+        <item quantity="other">%s giorni lavorativi</item>
+        <item quantity="one">%s giorno lavorativo</item>
+    </plurals>
+    <plurals name="shop_home_all_reviews_review_counts">
+        <item quantity="other">%s Recensioni</item>
+        <item quantity="one">1 recensione</item>
+    </plurals>
+    <plurals name="sold_order_subject_item_different_plural">
+        <item quantity="other">Ha acquistato %d articoli da te</item>
+        <item quantity="one">Ha acquistato qualcosa da te</item>
+    </plurals>
+    <plurals name="structured_refunds_day_options">
+        <item quantity="other">"%s giorni dall'acquisto"</item>
+        <item quantity="one">"%s giorno dall'acquisto"</item>
+    </plurals>
+    <plurals name="structured_refunds_days">
+        <item quantity="other">%s giorni dalla consegna</item>
+        <item quantity="one">%s giorno dalla consegna</item>
+    </plurals>
+    <plurals name="structured_refunds_days_of_purchase">
+        <item quantity="other">"%s giorno dall'acquisto"</item>
+        <item quantity="one">"%s giorno dall'acquisto"</item>
+    </plurals>
+    <plurals name="structured_refunds_hour_options">
+        <item quantity="other">"%s ore dall'acquisto"</item>
+        <item quantity="one">"%s ora dall'acquisto"</item>
+    </plurals>
+    <plurals name="structured_refunds_hours_of_purchase">
+        <item quantity="other">"%s ore dall'acquisto"</item>
+        <item quantity="one">"%s ora dall'acquisto"</item>
+    </plurals>
+    <plurals name="variation_summary">
+        <item quantity="other">%1$s (%2$d opzioni)</item>
+        <item quantity="one">%1$s (1 opzione)</item>
+    </plurals>
+</resources>

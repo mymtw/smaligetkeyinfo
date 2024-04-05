@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/clg_space_4" android:paddingBottom="@dimen/clg_space_4" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/tooltip_anchor_top" android:background="@drawable/clg_alert_anchor_arrow_bg" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="5.0dip" android:rotation="180.0" android:backgroundTint="?clg_color_tooltip_bg" />
+    <TextView android:textColor="?clg_color_tooltip_text" android:id="@id/tooltip_text" android:background="@drawable/clg_tooltip_bg" android:paddingTop="@dimen/clg_space_8" android:paddingBottom="@dimen/clg_space_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:paddingStart="@dimen/clg_space_12" android:paddingEnd="@dimen/clg_space_12" android:layout_marginStart="@dimen/clg_space_16" android:layout_marginEnd="@dimen/clg_space_16" style="@style/clg_text_body_small" />
+    <View android:id="@id/tooltip_anchor_bottom" android:background="@drawable/clg_alert_anchor_arrow_bg" android:visibility="visible" android:layout_width="10.0dip" android:layout_height="5.0dip" android:backgroundTint="?clg_color_tooltip_bg" />
+</LinearLayout>

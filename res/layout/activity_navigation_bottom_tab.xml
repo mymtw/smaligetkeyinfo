@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/app_bar" />
+        <FrameLayout android:id="@id/nav_content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/app_bar_layout" />
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton android:textColor="@color/clg_color_orange" android:layout_gravity="end|bottom|center" android:id="@id/search_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="72.0dip" android:text="@string/menu_search" android:contentDescription="@string/menu_search" android:layout_marginEnd="16.0dip" android:elevation="@dimen/clg_elevation_8" app:backgroundTint="@color/clg_color_white" app:icon="@drawable/clg_icon_core_search_v1" app:iconTint="@color/clg_color_orange" style="@style/clg_text_title" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottom_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="@dimen/bottom_nav_elevation" app:itemIconTint="?clg_color_text_primary" app:itemTextAppearanceActive="@style/BottomNavigationLabel" app:itemTextAppearanceInactive="@style/BottomNavigationLabel" app:itemTextColor="?clg_color_text_primary" app:labelVisibilityMode="labeled" app:menu="@menu/bottom_navigation" />
+    <View android:id="@id/animated_cart_count" android:background="@drawable/creamsicle_circle" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

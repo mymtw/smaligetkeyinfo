@@ -1,0 +1,98 @@
+.class final Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkq/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2;->invoke(Landroidx/compose/ui/d;Landroidx/compose/runtime/d;I)Landroidx/compose/ui/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkq/l<",
+        "Landroidx/compose/runtime/s;",
+        "Landroidx/compose/runtime/r;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic $bringIntoViewRequester:Landroidx/compose/foundation/relocation/d;
+
+.field public final synthetic $modifier:Landroidx/compose/foundation/relocation/e;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/compose/foundation/relocation/d;Landroidx/compose/foundation/relocation/e;)V
+    .locals 0
+
+    iput-object p1, p0, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;->$bringIntoViewRequester:Landroidx/compose/foundation/relocation/d;
+
+    iput-object p2, p0, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;->$modifier:Landroidx/compose/foundation/relocation/e;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Landroidx/compose/runtime/s;)Landroidx/compose/runtime/r;
+    .locals 2
+
+    const-string v0, "$this$DisposableEffect"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/o;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    iget-object p1, p0, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;->$bringIntoViewRequester:Landroidx/compose/foundation/relocation/d;
+
+    check-cast p1, Landroidx/compose/foundation/relocation/BringIntoViewRequesterImpl;
+
+    .line 3
+    iget-object p1, p1, Landroidx/compose/foundation/relocation/BringIntoViewRequesterImpl;->a:Lr/e;
+
+    .line 4
+    iget-object v0, p0, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;->$modifier:Landroidx/compose/foundation/relocation/e;
+
+    .line 5
+    invoke-virtual {p1, v0}, Lr/e;->c(Ljava/lang/Object;)V
+
+    .line 6
+    iget-object p1, p0, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;->$bringIntoViewRequester:Landroidx/compose/foundation/relocation/d;
+
+    iget-object v0, p0, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;->$modifier:Landroidx/compose/foundation/relocation/e;
+
+    .line 7
+    new-instance v1, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1$a;
+
+    invoke-direct {v1, p1, v0}, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1$a;-><init>(Landroidx/compose/foundation/relocation/d;Landroidx/compose/foundation/relocation/e;)V
+
+    return-object v1
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Landroidx/compose/runtime/s;
+
+    invoke-virtual {p0, p1}, Landroidx/compose/foundation/relocation/BringIntoViewRequesterKt$bringIntoViewRequester$2$1;->invoke(Landroidx/compose/runtime/s;)Landroidx/compose/runtime/r;
+
+    move-result-object p1
+
+    return-object p1
+.end method

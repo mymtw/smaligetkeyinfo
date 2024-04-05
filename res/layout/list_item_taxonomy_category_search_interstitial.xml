@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/clg_touch_feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clg_space_12" android:paddingStart="@dimen/clg_space_8" android:paddingEnd="@dimen/clg_space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/search_taxonomy_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/search_taxonomy_text" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/search_taxonomy_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/clg_space_12" android:paddingEnd="@dimen/clg_space_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/search_taxonomy_image" app:layout_constraintTop_toTopOf="parent" style="@style/clg_text_body" />
+</androidx.constraintlayout.widget.ConstraintLayout>

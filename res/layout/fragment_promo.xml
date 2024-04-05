@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/clg_touch_feedback" />
+    <ImageView android:id="@id/dismiss_x" android:padding="@dimen/fixed_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/layout_frame" android:layout_alignRight="@id/layout_frame" android:contentDescription="@string/close_button_content_description" app:srcCompat="@drawable/sk_ic_close" app:tint="@color/sk_gray_50" />
+</RelativeLayout>

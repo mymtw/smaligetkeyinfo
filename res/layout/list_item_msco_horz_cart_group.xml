@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:divider="@drawable/list_divider_dark_vertical" android:showDividers="middle" style="@style/MultiShopCartGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/items_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="6.0" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/items_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0" />
+</LinearLayout>

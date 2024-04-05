@@ -1,0 +1,50 @@
+.class public final Lcom/etsy/android/ui/user/purchases/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Lkq/l;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkq/l<",
+            "Lcom/etsy/android/ui/user/purchases/d;",
+            "Lkotlin/m;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lkq/l;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkq/l<",
+            "-",
+            "Lcom/etsy/android/ui/user/purchases/d;",
+            "Lkotlin/m;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/etsy/android/ui/user/purchases/a;->a:Lkq/l;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/etsy/android/ui/user/purchases/d;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/etsy/android/ui/user/purchases/a;->a:Lkq/l;
+
+    invoke-interface {v0, p1}, Lkq/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method

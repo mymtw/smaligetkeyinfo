@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.stylekit.views.CollageContentToggle android:id="@id/overview_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:clg_isExpanded="true" app:clg_showBottomDivider="false" app:clg_titleText="@string/item_overview"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableLayout android:id="@id/table_overview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/clg_space_16" android:paddingEnd="@dimen/clg_space_16" />
+</com.etsy.android.stylekit.views.CollageContentToggle>

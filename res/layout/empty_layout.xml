@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_xxlarge" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etsy.android.uikit.view.LazyNativeAssetImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fixed_large" style="@style/TextBlack.Large" />
+</LinearLayout>
